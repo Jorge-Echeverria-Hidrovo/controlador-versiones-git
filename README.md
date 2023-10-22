@@ -1,2 +1,9 @@
-# controlador-versiones-git
-Tarea 1 de la materia de controladores de versiones de la Maestría en Diseño Web y Desarrollo de Apps
+# Tarea 1
+
+## Controlador-versiones-git
+
+### Tarea 1 de la materia de controladores de versiones de la Maestría en Diseño Web y Desarrollo de Apps
+
+---
+
+#### Git: Un contrenedor de versiones
