@@ -152,7 +152,6 @@ git branch -m `cambia-nombre-branch`
 
 git branch -d nombre-branch `elimina un branch`
 
-
 ASUS@DESKTOP-CDA5FCM MINGW64 ~/Mi-primer-repo ((0.0.1))
 $ git branch
 
@@ -169,7 +168,6 @@ Previous HEAD position was 558debe cambios-prueba1
 Switched to branch 'main'
 Your branch is ahead of 'origin/main' by 1 commit.
 (use "git push" to publish your local commits)
-
 
 ASUS@DESKTOP-CDA5FCM MINGW64 ~/Mi-primer-repo (main)
 $ git checkout 558debe6edc40abbeda027f7fdb1fb39943eca5c
@@ -191,7 +189,6 @@ git switch -
 Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 558debe cambios-prueba1
-
 
 git checkout -b `se creará una nueva rama y se posicionará en ella.`
 
@@ -218,4 +215,71 @@ f919d53..d96b538  main -> main
 
 ---
 
-.gitignore `es un archivo donde se almacenan datos (tipos de archivos) que no deseamos visualisar`
+.gitignore `es un archivo donde se almacenan datos (tipos de archivos) que no deseamos visualisar. No se sube al repositorio.`
+
+secrets.yml `iarchivos que se desea mantener su información en secreto /no se sube al repositorio.`
+
+---
+
+git diff master nombre-branch `muestra los archivos que se trabajaron en el branch; es decir, compara entre el main o master y el branch los archivos que se trabajaron que contienen`
+
+git diff `muestra el archivo modificado`
+
+---
+
+git reset --hard `regresa al cambio anterior`
+
+---
+
+git push -u origin `para llevar a git-hub desde local al repositorio remoto nuestro trabajo`
+
+$ git push
+Everything up-to-date
+
+---
+
+git pull `para lo inverso; traer desde git-hub a local los cambios realizados.`
+
+---
+
+diff --git ruta o nombre del archivo.html `mostrará los cambios realizados`
+
+---
+
+git merge nombre-branch master `pasa todos los archivos de un branch al master`
+
+---
+
+git remote add origin "url-del-repositorio-remoto"
+
+---
+
+git --list `muestra la configuraciones que he realizado`
+
+---
+
+.gitignore `es un archivo que nos permite oculatar ciertos arhivos que queremos que sean visibles.`
+
+---
+
+git revert `revierte el cambio`
+
+---
+
+hooks `script que se va ejecutar con el lanzamiento de alguna acción`
+
+---
+
+-------------------------
+
+git merge
+
+add y commit
+
+staggin  -  commit
+
+clonar
+
+colaborador
+
+forkear
