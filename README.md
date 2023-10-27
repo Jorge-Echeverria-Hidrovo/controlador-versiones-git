@@ -270,16 +270,6 @@ hooks `script que se va ejecutar con el lanzamiento de alguna acción`
 
 ---
 
--------------------------
+HASH `es la identificación del commit`
 
-git merge
-
-add y commit
-
-staggin  -  commit
-
-clonar
-
-colaborador
-
-forkear
+---
