@@ -278,4 +278,13 @@ git merge `fusionar una rama con otra`
 
 git merge nombre-rama
 
+$ git merge rama2
+Updating 69ddaeb..c9091b8
+Fast-forward
+ archivo-rama2.txt |  0
+ mi-primer-repo2   |  1 +
+ repo-prueba2      | 13 +------------
+ 3 files changed, 2 insertions(+), 12 deletions(-)
+ create mode 100644 archivo-rama2.txt
+
 ---
